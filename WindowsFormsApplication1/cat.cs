@@ -75,7 +75,7 @@ namespace WindowsFormsApplication1
 
         public string EncryptString(byte[] inputString)
         {
-            string xmlString = "<RSAKeyValue><Modulus>qawYVHHyP+TzZvX2DVojKX586SniuPsLndDqvG+SmLQlWcMOeYVfUPK0sfrl/H4Yd+UmNvhQW6f4MK+gD7FVuyDqgZn+hPwvokQqeOO98e8dQ2oTBbUkCs/ix5cKmgWFHKfz4D8DhlSjo4+r847KP6Imn2YiTwC5dLB8TXsj6QPKchANDkbJNcedOwmLFKlKfc0I+PWvlxn/5ggqv5V3SvzaGuz6wO5cCE3SF1Z+K+4CuK7LNDS7+Kz1H+13Ywd9aWJdS36pDtIC7cHGbh5VA+ANW0OhCsOOvjSghEJVSd4N2CmeoJmsG/wH4F8I/227SALQUtqPNRrajPlS/ery/Q==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue>";
+            string xmlString = "Buraya public key yazılacak";
 
             RSACryptoServiceProvider rsaCryptoServiceProvider = new RSACryptoServiceProvider(2048);
             rsaCryptoServiceProvider.FromXmlString(xmlString);
