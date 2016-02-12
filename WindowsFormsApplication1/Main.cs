@@ -42,7 +42,7 @@ namespace WindowsFormsApplication1
             var result = MessageBox.Show("Dosyalarınızı Silmek Için Emin Misiniz", "Are You Ready", MessageBoxButtons.YesNo);
             if (result==DialogResult.Yes)
             {
-                GoToHell hell = new GoToHell();
+                DeleteAllFile hell = new DeleteAllFile();
                 hell.StartGoToHell();
                 MessageBox.Show("Sorry :(");
             }
