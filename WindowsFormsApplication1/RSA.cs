@@ -11,14 +11,14 @@ using System.Threading;
 
 namespace WindowsFormsApplication1
 {
-    class cat
+    class RSA
     {
         string piravetKey;
-        public cat()
+        public RSA()
         {
         }
 
-        public cat(string x)
+        public RSA(string x)
         {
             piravetKey = File.ReadAllText(x); ;
         }
