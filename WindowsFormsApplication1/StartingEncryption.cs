@@ -18,7 +18,7 @@ using System.Net.Mail;
 using System.Security.AccessControl;
 namespace WindowsFormsApplication1
 {
-    class dog
+    class StartingEncryption
     {
         private string userName;
         private string computerName;
@@ -27,7 +27,7 @@ namespace WindowsFormsApplication1
         private string user;
         string exeDir;
 
-        public dog()//encrypt icin
+        public StartingEncryption()//encrypt icin
         { 
             userName = Environment.UserName;
             
@@ -40,7 +40,7 @@ namespace WindowsFormsApplication1
             
         }
 
-        public dog(string PassDir)//decrypt icin
+        public StartingEncryption(string PassDir)//decrypt icin
         {
             rsa = new cat(PassDir);
             userName = Environment.UserName; 
