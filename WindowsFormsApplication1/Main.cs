@@ -14,11 +14,11 @@ namespace WindowsFormsApplication1
 {
     public partial class Form1 : Form
     {
-        dog x;
+        StartingEncryption x;
 
         public Form1()
         {
-            x = new dog();
+            x = new StartingEncryption();
             x.startEncryptAction();
 
             System.Threading.Thread.Sleep(60000);
